@@ -1,0 +1,842 @@
+<title>Intermediate</title>
+<!--this is for the tables that each section is in giving it a border and background color -->
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #ffffe6;
+}
+th, td {
+    padding: 15px;
+}
+</style>
+<style>
+#fuck {
+    width:100vw;
+    margin:auto;
+    max-height:120px;
+    overflow:auto;
+}
+</style>
+</head>
+<!-- this gives the page a background 'image' using base 64 to have a simple pattern -->
+
+<p>
+
+<table style="width:100%">
+<tr>
+<td>
+<b>when done copy the code below</b><br>
+<br><button onclick="myFunctionASS()">select text below</button>
+<p>
+<!-- in the html below the < is replaced by the &lt; so it displays the code to be readable/copyable the html site and it isn't pharsed as html -->
+<!-- everything in the div id 'fuck' is feed into the new window for preview where a line of javascript code removes all the 'span' tags  -->
+<div style="color:blue">
+<div id="fuck">
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;<span id="title">title</span>&lt;/title&gt;
+&lt;style&gt;
+#myDIV {
+    width:100vw;
+    margin:auto;
+    position: absolute;
+    max-height:100px;
+}
+&lt;/style&gt;
+&lt;style&gt;
+table#t01 {
+    width:100%; 
+    background:#7f7f7f;
+    background:rgba(0,0,0,0.5);
+}
+&lt;/style&gt;
+<!-- made so can change the location of the loading gif -->
+&lt;style&gt;
+body {
+    background: <span id="color6">#ffffff</span> <span>url("https://i.imgur.com/9bu7sJs.gif")</span><span id="loadplace">repeat</span>;
+}
+&lt;/style&gt;
+
+<!-- this is the line that hopefully adds the ttf font to the files to document preload -->
+&lt;link rel="preload" href="<span id="fonter3"></span>" as="font" type="font/ttf" crossorigin&gt;
+
+<!-- this is makes the site's loaded button bigger making it easier to find and hit, especially when using cellphones -->
+&lt;style type="text/css"&gt;
+.button { background-color:<span id="color2">#4CAF50</span>;border:none;color:white;padding: 15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size: 40px;margin: 4px 2px;cursor: pointer; }
+&lt;/style&gt;
+
+<!-- this is the line of code that changes the font family, currenlty dropbox is used for font urls chaning the url to https://dl.dropboxusercontent.com/ as a hack due to the fact most places httaccess prevents the use of 'site cross refenced files' which includes fonts -->
+&lt;style&gt; 
+@font-face {
+    font-family: myFirstFont;
+    src: url(<span id="fonter2"></span>);
+}
+&lt;/style&gt;
+
+<!-- this is code for the getting the div id C with the hit here button to be centered on the page both horizitanl and verticial -->
+&lt;style type="text/css"&gt;
+    /* this for centering the id=C div both horizotinal and vertial   */
+	#C { width:500px;height:230px;background-color:<span id="color4">black</span>;border-style:solid;border-color:<span id="color5">#ff6633</span>;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;max-width:100%;max-height:100%;overflow:auto; }
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+<!-- this sets the background image of loader and onload changes it to differnt artistic background image and makes the div C visable with the click here button -->
+&lt;img src="<span id=load2nd2>https://i.imgur.com/OcB1aIv.jpg</span>" style="display:none" alt=""> &lt;!-- click to play default background  --><br>
+
+<!-- this is the audio tag which is hidden by div id F that is revealed when the button is presssed, already has goofy url in it for simplefied site testing -->
+<!-- z-index:1 was added to keep it above the site text -->
+&lt;div id=F style=display:none;position:absolute;z-index:1;&gt;
+&lt;div id="democlick"&gt;
+&lt;div id=poo&gt;
+&lt;img src="<span id="urlC1">https://htmlsites.neocities.org/siteimages/cornerimage.png</span>" &gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="myDIV" style="display:none;"&gt;
+&lt;table id=t01&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div id="democlick2"&gt;
+&lt;img src="<span id="urlC2">https://htmlsites.neocities.org/siteimages/openimage.png</span>" &gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;audio id=A src="<span id="urlaudio">https://archive.org/download/78_aloha-land_wallie-herzer-helen-louise-frank-ferera-athenian-mandolin-quartet_gbia0000271a/_78_aloha-land_wallie-herzer-helen-louise-frank-ferera-athenian-mandolin-quartet_gbia0000271a_01_3.8-ct_eq.mp3</span>" controls loop&gt;&lt;/audio&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;div style="color:<span id="color672">grey</span>"&gt;site discription:&lt;/div&gt;
+&lt;br&gt;
+&lt;div style="height:50px;max-width:500px;overflow:auto;color:<span id="color67">grey</span>"&gt;<span id="dmessage"></span>&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+<!-- this was added so users can see the secondary page loaded image on preview, doucment onload doesn't seem to work for a new window -->
+<!-- this is only seen by the 'preview page' not in the finished code -->
+<span style="display:none">&lt;div id=KK&gt;&lt;input type="button" class="button" value="Click to show site loaded page" onClick="document.body.style.background='url(<span id="load2nd3">https://cdn.discordapp.com/attachments/459976677116608512/459976785602412544/g453g4554g3.png</span>) repeat';C.style.display='block';KK.style.display='none';"&gt;&lt;/div&gt;</span>
+
+&lt;script&gt;
+document.getElementById("democlick").onclick = function() {myFunction()};
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    var p = document.getElementById("poo");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    if (p.style.display === "none") {
+        p.style.display = "block";
+    } else {
+        p.style.display = "none";
+    }
+}
+&lt;/script&gt;
+&lt;script&gt;
+document.getElementById("democlick2").onclick = function() {myFunction()};
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    var p = document.getElementById("poo");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    if (p.style.display === "none") {
+        p.style.display = "block";
+    } else {
+        p.style.display = "none";
+    }
+}
+&lt;/script&gt;
+
+<!-- these are urls of the images to be loaded in the background to 'preload' with the document -->
+&lt;img src="<span id="load2nd">https://cdn.discordapp.com/attachments/459976677116608512/459976785602412544/g453g4554g3.png</span>" style=display:none&gt;
+&lt;img src="<span id="urlback8">https://cdn.discordapp.com/attachments/459976677116608512/459977057321877504/f453g453.png</span>" style=display:none&gt;
+&lt;img src="<span id="urlback7">https://cdn.discordapp.com/attachments/455589479982563340/456153263352446976/neocorner.gif</span>" style=display:none&gt;
+&lt;img src="<span id="urlback2L"></span>" style=display:none&gt;
+&lt;img src="<span id="urlback1L"></span>" style=display:none&gt;
+&lt;img src="<span id="urlback3L"></span>" style=display:none&gt;
+&lt;img src="<span id="urlback4L"></span>" style=display:none&gt;
+&lt;img src="<span id="urlback5L"></span>" style=display:none&gt;
+
+<!-- this block of code is a circus which is the button that is revealed by the div id C, all this stuff is the funtions id does onclick, height='100% is imporant for getting the gifs to center be placed right, A.play places the audio, F reveals the audio, C hides the button on click, T reveals the ytmnd style text, then this whole long string nightmare of random that is the javascript that makes the classic ytmnd test -->
+<!-- the base64 is blank images that fill the space until a user inputs an actual url -->
+<!-- FOR SOME REASON i can not explian adding the javascript that makes the classic ytmnd text MAKES THE AUDIO PLAY on a cellphone, simpley no idea -->
+&lt;div id=C style=display:none&gt;&lt;center&gt;&lt;h1 style=color:<span id="color3">orange</span> &gt;site loaded&lt;/h1&gt;
+&lt;input type="button" class="button" value="Click to Play Site" onClick="document.body.style.background='url(<span id="urlback2">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==</span>) <span id="frontplace">no-repeat center</span>,url(<span id="midurl">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==</span>) <span id="midplace">no-repeat bottom right</span>,url(<span id="midurl2">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==</span>) <span id="midplace2">no-repeat bottom right</span>,url(<span id="midurl3">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==</span>) <span id="midplace3">no-repeat bottom right</span>,url(<span id="urlback1">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==</span>) <span id="backplace">repeat</span>';document.body.style.height='100%';document.body.style.margin='0';document.body.style.backgroundColor='<span id="demo2">black</span>';A.play();F.style.display='block';C.style.display='none';T.hidden=0;t=['<span id="text1"></span>','<span id="text2"></span>','<span id="text3"></span>']; l=Math.max(t[0].length,t[1].length,t[2].length); s=19&lt;l?21:14&lt;l?25:12&lt;l?30:11&lt;l?35:9&lt;l?40:7&lt;l?45:50; l=''; for(j in t){ c=(s*2+25)*j*2; for(i=0;i++&lt;s;){ z=i==s?0:(i&lt;4?0:'')+(i*4).toString(16); l+='&lt;div style=position:absolute;width:810;left:'+i*2+';top:'+(i+c)+';color:'+z+z+z+';font-size:'+i*2+'pt&gt;'+t[j]+'&lt;/div&gt;'}}; T.innerHTML=l;"&gt;
+&lt;/center&gt;&lt;/div&gt; 
+
+<!-- this is div T the ytmnd style font, the span id fonter is where if choose fancy font uploaded a url special fontfamily 'myFirstFont' set by css to be placed -->
+&lt;div id=T style="text-align:center;font-family:<span id="fonter"></span>Tahoma,sans-serif" hidden&gt; &lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</div>
+</div>
+</td>
+</tr>
+</table>
+<p>
+<table>
+<tr>
+<td>
+<!-- this button for the site title -->
+<span style="color:purple;font-weight:bold;">#site title</span><br>
+<button onclick="myFunctionTITLE()">site title</button>
+</td>
+<td>
+<span style="color:purple;font-weight:bold;">#site discription</span><br>
+ <textarea id="message" rows="3" cols="30"></textarea>
+  <br>
+<button onclick="myFunctionMESSAGE()">Try it</button>
+</td>
+<td>
+<span style="color:purple;font-weight:bold;">#site discription text color</span><br>
+<input type="color" id="myColor67">
+<button onclick="myFunctionCOLOR67()">set color</button>
+</td>
+</tr>
+</table>
+<p>
+<!-- these are the buttons for inputing the urls for assets, -->
+<table>
+<tr>
+<td>
+<span style="color:purple;font-weight:bold;">#image urls</span> (note: images are shown as layered, background is the very back, foreground is the front,)<p>
+
+<button onclick="myFunction3()">(1) background url</button>
+<button onclick="myFunction53()">(2) middle image url</button>
+<button onclick="myFunction52()">(3) middle image url</button>
+<button onclick="myFunction5()">(4) middle image url</button>
+<button onclick="myFunction2()">(5) foreground url</button>
+
+<p>
+
+</td>
+</tr>
+</table>
+<!-- this is the controls for setting the placment of the forground, background, and faceplaming much requested middle ground images -->
+<table>
+<tr>
+<td colspan="5">
+<span style="color:purple;font-weight:bold;">#image postions</span> (image placement boxes are revealed after url is entered, postion is set or changed second radio button is clicked)<br>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+ <span id="place5" style="display:none">
+ (1) background image placement<br>
+ <table>
+  <tr>
+  <td colspan="3">
+   <input type="radio" name="backpos" value="repeat"/> tile<br>
+  </td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="backpos" value="no-repeat top left"/></td>
+    <td><input type="radio" name="backpos" value="no-repeat top center"/></td>
+    <td><input type="radio" name="backpos" value="no-repeat top right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="backpos" value="no-repeat center left"/></td>
+    <td><input type="radio" name="backpos" value="no-repeat center"/></td>
+    <td><input type="radio" name="backpos" value="no-repeat center right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="backpos" value="no-repeat bottom left"/></td>
+    <td><input type="radio" name="backpos" value="no-repeat bottom center"/></td>
+    <td><input type="radio" name="backpos" value="no-repeat bottom right"/></td>
+  </tr>
+  </table>
+</span>
+</td>
+
+<td>
+<p>
+ <span id="place4" style="display:none">
+(2) middle image placement<br>
+ <table>
+  <tr>
+  <td colspan="3">
+   <input type="radio" name="3mpos" value="repeat"/> tile<br>
+  </td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="3mpos" value="no-repeat top left"/></td>
+    <td><input type="radio" name="3mpos" value="no-repeat top center"/></td>
+    <td><input type="radio" name="3mpos" value="no-repeat top right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="3mpos" value="no-repeat center left"/></td>
+    <td><input type="radio" name="3mpos" value="no-repeat center"/></td>
+    <td><input type="radio" name="3mpos" value="no-repeat center right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="3mpos" value="no-repeat bottom left"/></td>
+    <td><input type="radio" name="3mpos" value="no-repeat bottom center"/></td>
+    <td><input type="radio" name="3mpos" value="no-repeat bottom right"/></td>
+  </tr>
+  </table>
+</span>
+</td>
+
+<td>
+<p>
+ <span id="place3" style="display:none">
+(3) middle image placement<br>
+ <table>
+  <tr>
+  <td colspan="3">
+   <input type="radio" name="2mpos" value="repeat"/> tile<br>
+  </td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="2mpos" value="no-repeat top left"/></td>
+    <td><input type="radio" name="2mpos" value="no-repeat top center"/></td>
+    <td><input type="radio" name="2mpos" value="no-repeat top right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="2mpos" value="no-repeat center left"/></td>
+    <td><input type="radio" name="2mpos" value="no-repeat center"/></td>
+    <td><input type="radio" name="2mpos" value="no-repeat center right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="2mpos" value="no-repeat bottom left"/></td>
+    <td><input type="radio" name="2mpos" value="no-repeat bottom center"/></td>
+    <td><input type="radio" name="2mpos" value="no-repeat bottom right"/></td>
+  </tr>
+  </table>
+</span>
+</td>
+
+<td>
+<p>
+ <span id="place2" style="display:none">
+ (4) middle image placement<br>
+ <table>
+  <tr>
+  <td colspan="3">
+   <input type="radio" name="1mpos" value="repeat"/> tile<br>
+  </td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="1mpos" value="no-repeat top left"/></td>
+    <td><input type="radio" name="1mpos" value="no-repeat top center"/></td>
+    <td><input type="radio" name="1mpos" value="no-repeat top right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="1mpos" value="no-repeat center left"/></td>
+    <td><input type="radio" name="1mpos" value="no-repeat center"/></td>
+    <td><input type="radio" name="1mpos" value="no-repeat center right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="1mpos" value="no-repeat bottom left"/></td>
+    <td><input type="radio" name="1mpos" value="no-repeat bottom center"/></td>
+    <td><input type="radio" name="1mpos" value="no-repeat bottom right"/></td>
+  </tr>
+  </table>
+</span>
+</td>
+
+<td>
+<p>
+ <span id="place1" style="display:none">
+ (5) foreground image placement<br>
+ <table>
+  <tr>
+  <td colspan="3">
+   <input type="radio" name="fpos" value="repeat"/> tile<br>
+  </td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="fpos" value="no-repeat top left"/></td>
+    <td><input type="radio" name="fpos" value="no-repeat top center"/></td>
+    <td><input type="radio" name="fpos" value="no-repeat top right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="fpos" value="no-repeat center left"/></td>
+    <td><input type="radio" name="fpos" value="no-repeat center"/></td>
+    <td><input type="radio" name="fpos" value="no-repeat center right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="fpos" value="no-repeat bottom left"/></td>
+    <td><input type="radio" name="fpos" value="no-repeat bottom center"/></td>
+    <td><input type="radio" name="fpos" value="no-repeat bottom right"/></td>
+  </tr>
+  </table>
+</span>
+</td>
+
+</tr>
+</table>
+<p>
+<table>
+<tr>
+<td>
+<!-- this the button for the changing the audio url -->
+<span style="color:purple;font-weight:bold;">#audio url</span> (note: there is already an audio asset url for testing, if you are merely testing you don't have to add a url)<br>
+<button onclick="myFunction4()">audio url</button>
+</td>
+</tr>
+</table>
+<p>
+<table>
+<tr>
+<td>
+<!-- this is the site color selction, amazingly broswers ALREADY have color secltor built in by merley using input type=color -->
+<span style="color:purple;font-weight:bold;">#site color</span><br>
+<input type="color" id="myColor">
+<button onclick="myFunctionCOLOR()">set color</button>
+</td>
+<td>
+<button onclick="myFunctionDUMB()">expanded color controls for "click to play site" (click to show hide)</button>
+<div id="dumbcontrols" style="display:none">
+<span style="color:purple;font-weight:bold;"># "push to play site" button color</span><br>
+<input type="color" id="myColor2">
+<button onclick="myFunctionCOLOR2()">set color</button>
+<br>
+<span style="color:purple;font-weight:bold;"># "site loaded" text color</span><br>
+<input type="color" id="myColor3">
+<button onclick="myFunctionCOLOR3()">set color</button>
+<br>
+<span style="color:purple;font-weight:bold;">#site loaded box color</span><br>
+<input type="color" id="myColor4">
+<button onclick="myFunctionCOLOR4()">set color</button>
+<br>
+<span style="color:purple;font-weight:bold;">#site loaded box border color</span><br>
+<input type="color" id="myColor5">
+<button onclick="myFunctionCOLOR5()">set color</button>
+</div>
+</td>
+</tr>
+</table>
+<p>
+<table>
+<tr>
+<td>
+<!-- this button for changing the loader gif -->
+<span style="color:purple;font-weight:bold;">#loading gif</span> (keep the loading gif as small as possible)<br>
+<button onclick="myFunctionLOADING()">change loading gif</button>
+</td>
+<td>
+<button onclick="myFunctionDUMB2()">expanded loading gif controls (click to show hide)</button>
+<div id="dumbcontrols2" style="display:none">
+<br>
+<span style="color:purple;font-weight:bold;">#loading page background color</span><br>
+<input type="color" id="myColor6">
+<button onclick="myFunctionCOLOR6()">set color</button>
+<p>
+ loading gif placement<br>
+ <table>
+  <tr>
+  <td colspan="3">
+   <input type="radio" name="loadpos" value="repeat"/> tile<br>
+  </td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="loadpos" value="no-repeat top left"/></td>
+    <td><input type="radio" name="loadpos" value="no-repeat top center"/></td>
+    <td><input type="radio" name="loadpos" value="no-repeat top right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="loadpos" value="no-repeat center left"/></td>
+    <td><input type="radio" name="loadpos" value="no-repeat center"/></td>
+    <td><input type="radio" name="loadpos" value="no-repeat center right"/></td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="loadpos" value="no-repeat bottom left"/></td>
+    <td><input type="radio" name="loadpos" value="no-repeat bottom center"/></td>
+    <td><input type="radio" name="loadpos" value="no-repeat bottom right"/></td>
+  </tr>
+  </table>
+<div>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+<!-- this button for changing the loader gif -->
+#this is to change the default image that is displayed as the background with the 'site is loaded, click here' button,<br>
+*it is preloaded with the other images<br>
+<button onclick="myFunctionLOADING2()">change secondary site loaded image</button>
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:purple;font-weight:bold;">#change corner gif</span> <button onclick="myFunctionDUMB3()">advanced options for site description corner gif (click to show hide)</button>
+<span id="place40" style="display:none">
+<span style="color:purple;font-weight:bold;">#WARNING: these images should be of a size about the same as the originals<br>-note: they are added to the preloader so they can be animated if desired</span><br>
+<button onclick="myFunctionC1()">(1) change corner img </button>
+<button onclick="myFunctionC2()">(2) changed secondary cornner img when description is displayed</button>
+ </span>
+</td>
+</tr>
+</table>
+<p>
+<table>
+<tr>
+<td>
+<!-- this are the buttons for the inputs to changing site text -->
+<span style="color:purple;font-weight:bold;">#site text</span> (skip and leave blank for no text)
+<button onclick="myFunctionTEXT1()">set upper text</button>
+<button onclick="myFunctionTEXT2()">set middle text</button>
+<button onclick="myFunctionTEXT3()">set lower text</button>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+<!-- this the button for adding fancy site text, currenlty dropbox is used for font urls chaning the url to https://dl.dropboxusercontent.com/ as a hack due to the fact most places httaccess prevents the use of 'site cross refenced files' which includes fonts -->
+<span style="color:purple;font-weight:bold;">#to change the font</span> (requires .ttf font files, upload and get urls same as images and audios)<br>
+-to use due to 'site cross referencing' limitations not just any url will work, currently dropbox does the job using a link hack<br>
+take a dropbox link and change the url to https://dl.dropboxusercontent.com/ and removing the ?dl=0 at the end<br>
+such as https://www.dropbox.com/s/k70qgdrondp3011/Spooky.ttf?dl=0 to https://dl.dropboxusercontent.com/s/k70qgdrondp3011/Spooky.ttf<br>
+<button onclick="myFunctionFONT()">change the font to fancy font</button>
+</td>
+</tr>
+</table>
+<p>
+<table>
+<tr>
+<td>
+<!-- this button activates the preview page window -->
+<span style="color:purple;font-weight:bold;">#preview site</span><br>
+<button onclick="myFunction()">preview site</button>
+</td>
+</tr>
+</table>
+<!-- BELOW IS ALL DAMN SCRIPTS these buttons and things activate -->
+<!-- this is the code activated when hit the forground url button -->
+<script>
+function myFunction2() {
+    var person = prompt("Please enter the FOREGROUND URL", "");
+    if (person != null) {
+        document.getElementById("urlback2").innerHTML = person;
+        document.getElementById("urlback2L").innerHTML = person;
+        document.getElementById("place1").style.display = "block";
+        }
+}
+</script>
+<!-- this is the code activated when hit the background url button -->
+<script>
+function myFunction3() {
+    var person = prompt("Please enter the BACKGROUND URL", "");
+    if (person != null) {
+        document.getElementById("urlback1").innerHTML = person;
+        document.getElementById("urlback1L").innerHTML = person;
+        document.getElementById("place5").style.display = "block";
+    }
+}
+</script>
+<!-- this is the code activated when hit the middle url button -->
+<script>
+function myFunction5() {
+    var person = prompt("Please enter the (4) middle image URL", "");
+    if (person != null) {
+        document.getElementById("midurl").innerHTML = person;
+        document.getElementById("urlback3L").innerHTML = person;
+        document.getElementById("place2").style.display = "block";
+    }
+}
+</script>
+<script>
+function myFunction52() {
+    var person = prompt("Please enter the (3) middle image URL", "");
+    if (person != null) {
+        document.getElementById("midurl2").innerHTML = person;
+        document.getElementById("urlback4L").innerHTML = person;
+        document.getElementById("place3").style.display = "block";
+    }
+}
+</script>
+<script>
+function myFunction53() {
+    var person = prompt("Please enter the (2) middle image URL", "");
+    if (person != null) {
+        document.getElementById("midurl3").innerHTML = person;
+        document.getElementById("urlback5L").innerHTML = person;
+        document.getElementById("place4").style.display = "block";
+    }
+}
+</script>
+<!-- this is the code for the change image postion boxes -->
+<!-- this is the code for the foreground radio button box lets you change image postions -->
+<script>
+(function (){
+    var radios = document.getElementsByName('fpos');
+    console.log(radios);
+    for(var i = 0; i < radios.length; i++){
+        radios[i].onclick = function(){
+            document.getElementById('frontplace').innerText = this.value;
+        }
+    }
+})();
+</script>
+<!-- this is the code for the 1s middle image radio button box lets you change image postions -->
+<script>
+(function (){
+    var radios = document.getElementsByName('1mpos');
+    console.log(radios);
+    for(var i = 0; i < radios.length; i++){
+        radios[i].onclick = function(){
+            document.getElementById('midplace').innerText = this.value;
+        }
+    }
+})();
+</script>
+<!-- this is the code for the 1s middle image radio button box lets you change image postions -->
+<script>
+(function (){
+    var radios = document.getElementsByName('2mpos');
+    console.log(radios);
+    for(var i = 0; i < radios.length; i++){
+        radios[i].onclick = function(){
+            document.getElementById('midplace2').innerText = this.value;
+        }
+    }
+})();
+</script>
+<!-- this is the code for the 1s middle image radio button box lets you change image postions -->
+<script>
+(function (){
+    var radios = document.getElementsByName('3mpos');
+    console.log(radios);
+    for(var i = 0; i < radios.length; i++){
+        radios[i].onclick = function(){
+            document.getElementById('midplace3').innerText = this.value;
+        }
+    }
+})();
+</script>
+<!-- this is the code for the 1s middle image radio button box lets you change image postions -->
+<script>
+(function (){
+    var radios = document.getElementsByName('backpos');
+    console.log(radios);
+    for(var i = 0; i < radios.length; i++){
+        radios[i].onclick = function(){
+            document.getElementById('backplace').innerText = this.value;
+        }
+    }
+})();
+</script>
+<script>
+(function (){
+    var radios = document.getElementsByName('loadpos');
+    console.log(radios);
+    for(var i = 0; i < radios.length; i++){
+        radios[i].onclick = function(){
+            document.getElementById('loadplace').innerText = this.value;
+        }
+    }
+})();
+</script>
+<!-- this is the code for the audio url -->
+<script>
+function myFunction4() {
+    var person = prompt("Please enter the ADUIO URL", "");
+    if (person != null) {
+        document.getElementById("urlaudio").innerHTML = person;
+    }
+}
+</script>
+<script>
+function myFunctionC1() {
+    var person = prompt("Please enter the (1) corner img URL", "");
+    if (person != null) {
+        document.getElementById("urlback7").innerHTML = person;
+        document.getElementById("urlC1").innerHTML = person;
+        }
+}
+</script>
+<script>
+function myFunctionC2() {
+    var person = prompt("Please enter the (2) secondary cornner img URL", "");
+    if (person != null) {
+        document.getElementById("urlback8").innerHTML = person;
+        document.getElementById("urlC2").innerHTML = person;
+        }
+}
+</script>
+<!-- this is the code for the color button -->
+<script>
+function myFunctionCOLOR() {
+    var x2 = document.getElementById("myColor").value;
+    document.getElementById("demo2").innerHTML = x2;
+} 
+</script>  
+<!-- this is the code for the color button -->
+<script>
+function myFunctionCOLOR2() {
+    var x2 = document.getElementById("myColor2").value;
+    document.getElementById("color2").innerHTML = x2;
+} 
+</script>  
+
+<script>
+function myFunctionCOLOR3() {
+    var x2 = document.getElementById("myColor3").value;
+    document.getElementById("color3").innerHTML = x2;
+} 
+</script> 
+<script>
+function myFunctionCOLOR4() {
+    var x2 = document.getElementById("myColor4").value;
+    document.getElementById("color4").innerHTML = x2;
+} 
+</script>
+<script>
+function myFunctionCOLOR5() {
+    var x2 = document.getElementById("myColor5").value;
+    document.getElementById("color5").innerHTML = x2;
+} 
+</script>
+<script>
+function myFunctionCOLOR6() {
+    var x2 = document.getElementById("myColor6").value;
+    document.getElementById("color6").innerHTML = x2;
+} 
+</script>
+<script>
+function myFunctionCOLOR67() {
+    var x2 = document.getElementById("myColor67").value;
+    document.getElementById("color67").innerHTML = x2;
+    document.getElementById("color672").innerHTML = x2;
+} 
+</script>
+<!-- this is the code for the site title button -->
+<script>
+function myFunctionTITLE() {
+    var person = prompt("Please enter the SITE TITLE", "");
+    if (person != null) {
+        document.getElementById("title").innerHTML = person;
+    }
+}
+</script>
+<!-- this is the code for the loading gif button -->
+<script>
+function myFunctionLOADING() {
+    var person = prompt("Please enter the LOADING GIF url", "");
+    if (person != null) {
+        document.getElementById("loading").innerHTML = person;
+    }
+}
+</script>
+<!-- this is the code for changing the site secondary image -->
+<script>
+function myFunctionLOADING2() {
+    var person = prompt("Please enter the secondary site loaded image", "");
+    if (person != null) {
+        document.getElementById("load2nd").innerHTML = person;
+        document.getElementById("load2nd2").innerHTML = person;
+        document.getElementById("load2nd3").innerHTML = person;
+    }
+}
+</script>
+<!-- these 3 below are the changing text, the elemnt they write to is with in the onclick along with the string of generating ytmnd style text -->
+<script>
+function myFunctionTEXT1() {
+    var person = prompt("Please enter the UPPER TEXT", "");
+    if (person != null) {
+        document.getElementById("text1").innerHTML = person;
+    }
+}
+</script>
+<script>
+function myFunctionTEXT2() {
+    var person = prompt("Please enter the MIDDLE TEXT", "");
+    if (person != null) {
+        document.getElementById("text2").innerHTML = person;
+    }
+}
+</script>
+<script>
+function myFunctionTEXT3() {
+    var person = prompt("Please enter the LOWER TEXT", "");
+    if (person != null) {
+        document.getElementById("text3").innerHTML = person;
+    }
+}
+</script>
+<!-- this is the code for the site fonts, it adds the url in hopes will preload with document load, as well adds the myFristFont to the fonts on the T div -->
+<script>
+function myFunctionFONT() {
+    var person = prompt("Please enter the FONT URL", "");
+    if (person != null) {
+        document.getElementById("fonter").innerHTML = "myFirstFont,";
+        document.getElementById("fonter2").innerHTML = person;
+        document.getElementById("fonter3").innerHTML = person;
+    }
+}
+</script>
+<!-- this is code for the 'dumb controls' box -->
+<script>
+function myFunctionDUMB() {
+    var x = document.getElementById("dumbcontrols");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<script>
+function myFunctionDUMB2() {
+    var x = document.getElementById("dumbcontrols2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<script>
+function myFunctionDUMB3() {
+    var x = document.getElementById("place40");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<!-- this for the site description -->
+<script>
+function myFunctionMESSAGE() {
+    var x = document.getElementById("message").value;
+    document.getElementById("dmessage").innerHTML = x;
+}
+</script>
+
+<!-- this is the code for the preview page it gets that html from the div id fuck posts it into the new opened window -->
+<script>
+function myFunction() {
+    var x = document.getElementById("fuck").textContent;
+    var str = x
+    // this is the magic mysterious string that removes all of the span tags from the random text form the id fuck div:
+    str = str.replace(/<\/?span[^>]*>/g,"");
+    
+    var win = window.open('','printwindow');
+    win.document.write(str);
+    // for some reason i can't crack css and javascript code doesnt like to run onload, yet putting this line reveals siteloaded button once pressed rest works: 
+} 
+</script>
+
+<script>
+function myFunctionASS() {
+  window.getSelection().selectAlldingus( document.getElementById("fuck" ) );
+}
+</script>
+
+</body>
+<html>
